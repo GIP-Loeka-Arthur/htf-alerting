@@ -6,28 +6,28 @@ Description: >
 Parameters:
 
     RedditUserAgent:
-        Default: "A random string"
+        Default: "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:82.0) Gecko/20100101 Firefox/82.0"
         Type: String
 
     RedditClientId:
-        Default: ""
+        Default: "rlnxURvoyFHMfQ"
         Type: String
 
     RedditClientSecret:
-        Default: ""
+        Default: "oQiV17nBkHjV6QdnyZ2CF4vdvAH-BQ"
         Type: String
 
     RedditRefreshToken:
-        Default: ""
+        Default: "23412888577-e9tRWBGVWfjRJ9b5_FjflpCR9u3W5g"
         Type: String
 
     RedditSubreddit:
-        Default: "AskReddit"
+        Default: "memes"
         Type: String
     
     EventbusArn:
         Description: Name of the Amazon EventBridge bus to which events are published to be processed.
-        Default: "arn:aws:events:eu-central-1:19823479384:event-bus/htf-yourteamnaam"
+        Default: "arn:aws:events:eu-west-1:128894441789:event-bus/htf-underdog-eventbus"
         Type: String
 
     

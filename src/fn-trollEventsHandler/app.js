@@ -8,7 +8,7 @@ exports.lambdaHandler = async ( event ) => {
     try {
 
         // Log incoming event and environment variables
-        console.log(event)
+        console.log(event.detail)
 
         console.log("Variable 'UserPreferencesTable': " + process.env.UserPreferencesTable)
         console.log("Variable 'MSTeamsSQSUrl': " + process.env.MSTeamsSQSUrl)
