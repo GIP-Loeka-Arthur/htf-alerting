@@ -48,7 +48,7 @@ sam local invoke FnTrollEventHandler --event ./events/trollEvent.json -t templat
 
 sam local invoke FnSourceAdapterReddit --event ./events/testEvents.json -t templates/event-source-adapters.yaml
 
-sam local invoke FnChannelHandlerMSTeams --event ./events/msTeamsEvent.json -t templates/notification-channel-handlers.yaml --skip-pull-image
+sam local invoke FnChannelHandlerMSTeams --event ./events/slackEvent.json -t templates/notification-channel-handlers.yaml --skip-pull-image
 
 # Adding new npm dependencies to function
 npm install --save snoowrap
