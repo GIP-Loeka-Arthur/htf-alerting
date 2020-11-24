@@ -1,4 +1,5 @@
-set STACK_NAME=<underdog>-htf-trollalerting-core
+@echo off 
+set STACK_NAME=underdog-htf-trollalerting-adapters
 set MY_REGION=eu-west-1
 set MY_DEV_BUCKET=htf-deploymentbucket2
 
