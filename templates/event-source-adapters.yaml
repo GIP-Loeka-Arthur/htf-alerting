@@ -57,7 +57,7 @@ Resources:
         CWSchedule:
             Type: Schedule
             Properties:
-                Schedule: 'rate(30 minutes)'
+                Schedule: 'rate(1 minute)'
       Policies:
         - Statement:
           - Effect: Allow

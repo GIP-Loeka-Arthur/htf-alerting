@@ -12,17 +12,17 @@ Parameters:
 
     EventbusArn:
         Description: Name of the eventbridge bus which you created manually in the AWS web console
-        Default: "arn:aws:events:eu-central-1:19823479384:event-bus/htf-example"
+        Default: "arn:aws:events:eu-west-1:128894441789:event-bus/htf-underdog-eventbus"
         Type: String
     
     MSTeamsSQSUrl:
         Description: ARN of the SQS queue which you created manually in the AWS web console
-        Default: "https://sqs.eu-central-1.amazonaws.com/19823479384/yourteamname-SQS-MSTEAMS"
+        Default: "arn:aws:sqs:eu-west-1:128894441789:htf-underdog-slack"
         Type: String
-    TwilioSQSUrl:
-        Description: ARN of the SQS queue which you created manually in the AWS web console
-        Default: "https://sqs.eu-central-1.amazonaws.com/19823479384/yourqueue"
-        Type: String
+    # TwilioSQSUrl:
+    #     Description: ARN of the SQS queue which you created manually in the AWS web console
+    #     Default: "https://sqs.eu-central-1.amazonaws.com/19823479384/yourqueue"
+    #     Type: String
 
 
   
@@ -42,7 +42,7 @@ Resources:
       Environment:
         Variables:
           UserPreferencesTable: !Sub ${UserPreferencesTable}
-          TwilioSQSUrl: !Sub ${TwilioSQSUrl}
+          # TwilioSQSUrl: !Sub ${TwilioSQSUrl}
           MSTeamsSQSUrl: !Sub ${MSTeamsSQSUrl}
       Events:
         EventBridgeBusinessAnomalyRule:

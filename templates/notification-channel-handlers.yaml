@@ -6,7 +6,7 @@ Description: >
 Parameters:
 
     MSTeamsSQSArn:
-        Default: "arn:aws:sqs:eu-central-1:19823479384:TEAMA-SQS-MSTEAMS"
+        Default: "arn:aws:sqs:eu-west-1:128894441789:htf-underdog-slack"
         Type: String
   
 Resources:
