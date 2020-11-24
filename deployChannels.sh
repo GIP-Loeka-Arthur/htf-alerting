@@ -1,5 +1,5 @@
 #!/bin/bash
-export STACK_NAME=<your-team-afkorting>-htf-trollalerting-channels
+export STACK_NAME=<underdog>-htf-trollalerting-channels
 export MY_REGION=eu-central-1
 export MY_DEV_BUCKET=htf-deploymentbucket
 
