@@ -1,6 +1,10 @@
 #!/bin/bash
 export STACK_NAME=<underdog>-htf-trollalerting-adapters
+<<<<<<< HEAD
 export MY_REGION=eu-west-1
+=======
+export MY_REGION=eu-central-1
+>>>>>>> 73b65ca666232e4b5877ad387c7b6f3d01d3d0d0
 export MY_DEV_BUCKET=htf-deploymentbucket
 
 # Package new cloudformation package

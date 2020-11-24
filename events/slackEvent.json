@@ -1,0 +1,10 @@
+{
+  "Records": [
+    {
+      "messageId": "19dd0b57-b21e-4ac1-bd88-01bbb068cb78",
+      "body": "{\"url\":\"https://hooks.slack.com/services/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\",\"text\":\"New NEUTRAL message found on be.i8c.htf.trollevents.reddit. From author WhoArtThyI in context of AskReddit. Link to message: https://www.reddit.com/r/AskReddit/comments/jyyki3/bob_the_builder_visits_your_house_and_offers_to/\"}",
+      "eventSource": "aws:sqs",
+      "awsRegion": "eu-west-1"
+    }
+  ]
+}
